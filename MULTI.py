@@ -19,7 +19,8 @@ import os
 
 try:
 
-	import requestsexcept mportError:
+	import requests
+except mportError:
 		os.system("pip install requests")
 
  
